@@ -1,0 +1,86 @@
+body{ 
+/*background: -webkit-linear-gradient(top, rgba(255,159,49,0) 22%,rgba(255,159,49,1) 36%,rgba(255,159,49,1) 41%,rgba(255,159,49,1) 63%,rgba(255,159,49,0.55) 72%,rgba(255,159,49,0.2) 79%,rgba(255,159,49,0.15) 80%,rgba(255,168,97,0) 83%,rgba(255,168,97,0) 86%,rgba(255,168,97,0) 87%); */
+background: url('background.jpg');
+	}
+#wrapper{
+	background-color: white;
+	width: 1100px;
+	margin: auto;
+	box-shadow: 1px solid;
+
+}
+.row1:before, .row1:after{
+	display: table;
+	content: "";
+}
+.row1:after{
+	clear: both;
+}
+
+#logo{
+	background-image: url('elogo.png');
+	height: 120px;
+	width: 250px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left:30px;
+
+}
+
+#banner{
+	background-image: url('banner.jpg');
+	height: 120px;
+	width: 100%;
+	background-repeat: no-repeat;
+	margin: auto;
+	background-size: 100%;
+	margin-top: 10px;
+}
+ #menu{
+ 	background: -webkit-linear-gradient(top, rgba(255,168,76,1) 32%,rgba(255,168,76,1) 36%,rgba(255,123,13,1) 49%,rgba(255,123,13,1) 54%,rgba(255,123,13,1) 56%,rgba(255,123,13,0.51) 99%);
+	text-align: left;
+	font-size: 26px;
+	font-family:"Monospace", Gadget, sans-serif;
+
+
+
+
+}
+
+
+#menu ul{
+	height: auto;
+	padding: 0px;
+	margin:  0px;
+	border: 1px solid #ff8d00;
+	
+}
+#menu li{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	border-right: 3px solid #ff8d00;
+	margin-top: 0px;
+}
+#menu li a{
+	text-decoration: none;
+	color: #ff8d00;
+	padding: 10px 10px 10px 10px;
+
+}
+ #menu  a:hover{
+ 	color: #ff8d00;
+ background:-webkit-linear-gradient(top, rgba(255,168,76,0.24) 36%,rgba(255,130,23,0.24) 47%,rgba(255,123,13,0.25) 49%,rgba(255,123,13,0.26) 51%,rgba(255,168,76,0.28) 54%,rgba(255,168,76,0.51) 99%);
+ 
+ }
+ 
+
+.left-sidebar{
+	background-color: #F7B509;
+	border-radius: 9px;
+	float: left;
+	width: 40%;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
