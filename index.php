@@ -21,6 +21,7 @@
 			<a href="trafficrules"><li>TRAFFIC RULES</li></a>
 			<a href="services"><li>SERVICES</li></a>
 			<a href="contacts"><li>CONTACTS</li></a>
+			<a href="contacts"><li>CONTACTS</li></a>
 		</ul>
 	</div>
 			
